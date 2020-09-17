@@ -1,0 +1,26 @@
+* {
+  color: white;
+}
+
+body {
+  margin: o;
+  padding: 5;
+  background-color: black;
+}
+
+header {
+  font-family: "Roboto Slab", serif;
+  font-size: 32px;
+  padding: 16px;
+  background-color: darkred;
+  color: white;
+}
+
+article {
+  line-height: 22px;
+  font-family: "Roboto Slab", serif;
+}
+
+footer {
+  background-color: darkred;
+}
