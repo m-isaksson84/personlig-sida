@@ -17,10 +17,35 @@ header {
 }
 
 article {
+  font-size: 32px;
   line-height: 22px;
   font-family: "Roboto Slab", serif;
 }
 
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+}
+
 footer {
   background-color: darkred;
+}
+
+p {
+  text-align: center;
+  margin: auto;
+  width: 60%;
+}
+
+.center {
+  line-height: 22px;
+  text-align: center;
+  margin: auto;
 }
