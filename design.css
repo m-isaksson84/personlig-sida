@@ -8,7 +8,6 @@ body {
 }
 
 header {
-  font-family: "Roboto Slab", serif;
   text-align: center;
   font-size: 32px;
   padding: 0;
@@ -37,7 +36,6 @@ nav a:hover {
 
 footer nav a:hover {
   background-color: transparent;
-  text-decoration: underline;
   background: red;
 }
 
@@ -54,6 +52,9 @@ footer {
 
 p {
   width: 60%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
 }
 
 .image-container {
