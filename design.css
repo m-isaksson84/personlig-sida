@@ -8,12 +8,14 @@ body {
 }
 
 header {
-  text-align: center;
   font-size: 32px;
   padding: 0;
   margin: 0px;
   background-color: darkred;
   color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 nav {
