@@ -13,9 +13,7 @@ header {
   margin: 0px;
   background-color: darkred;
   color: white;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  text-align: center;
 }
 
 nav {
