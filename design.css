@@ -8,6 +8,7 @@ body {
 }
 
 header {
+  font-family: "Roboto Slab", serif;
   font-size: 32px;
   padding: 0;
   margin: 0px;
@@ -38,21 +39,25 @@ nav a:hover {
   transition: 1s;
 }
 
+nav a:not(:hover) {
+  background-color: darkred;
+  transition: 0.5s;
+}
+
 footer nav a:hover {
   background-color: transparent;
   background: red;
 }
 
 article {
-  font-size: 32px;
+  margin: 25px;
+  font-size: 50px;
   line-height: 22px;
-  font-family: "Roboto Slab", serif;
 }
 
 h4 {
   text-align: center;
 }
-
 footer {
   background-color: darkred;
   border-color: red;
@@ -61,6 +66,8 @@ footer {
 }
 
 p {
+  font: "arial";
+  font-size: 16px;
   width: 60%;
   display: flex;
   flex-wrap: wrap;
