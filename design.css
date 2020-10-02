@@ -14,6 +14,9 @@ header {
   background-color: darkred;
   color: white;
   text-align: center;
+  border-color: red;
+  border-style: ridge;
+  border-width: 1px;
 }
 
 nav {
@@ -32,6 +35,7 @@ nav a {
 
 nav a:hover {
   background-color: red;
+  transition: 1s;
 }
 
 footer nav a:hover {
@@ -42,12 +46,18 @@ footer nav a:hover {
 article {
   font-size: 32px;
   line-height: 22px;
-
   font-family: "Roboto Slab", serif;
+}
+
+h4 {
+  text-align: center;
 }
 
 footer {
   background-color: darkred;
+  border-color: red;
+  border-style: ridge;
+  border-width: 1px;
 }
 
 p {
@@ -55,6 +65,17 @@ p {
   display: flex;
   flex-wrap: wrap;
   justify-content: left;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.flexbox {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 .image-container {
